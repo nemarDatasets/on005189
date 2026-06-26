@@ -1,31 +1,73 @@
 {
   "version": "2.0",
-  "dataset_id": "on005189",
-  "source": "openneuro",
-  "source_id": "ds005189",
+  "pipeline_stage": "validated",
   "title": "Search Superiority Recollection Familiarity",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Jason Helbing": {},
     "Dejan Draschkow": {},
     "Melissa L.-H. Võ": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005189.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005189",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005189",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.9.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "beh",
     "eeg"
   ],
-  "datatypes": [
-    "beh",
-    "eeg"
-  ]
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".EDF",
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset investigates the search superiority effect in human memory, examining whether incidental learning during visual search produces qualitatively different memory representations compared to intentional memorization. Thirty participants performed visual search and intentional memorization tasks on objects in scenes, followed by a surprise recognition memory test. The study combines EEG recordings and eye-tracking data to dissociate the contributions of recollection and familiarity processes to memory formation, revealing that search superiority relies on increased recollection rather than enhanced familiarity.",
+  "methods_description": "EEG and eye-tracking data were recorded from 30 participants during an encoding phase (visual search and intentional memorization tasks) and a subsequent recognition memory test phase. Behavioral data were collected during both encoding and testing phases, including remember-know judgments and receiver operating characteristics (ROCs) analysis.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "eye tracking"
+    },
+    {
+      "term": "visual search"
+    },
+    {
+      "term": "recognition memory"
+    },
+    {
+      "term": "recollection"
+    },
+    {
+      "term": "familiarity"
+    },
+    {
+      "term": "incidental learning"
+    }
+  ],
+  "source_hash": "a1eaba0f2261ff4044797516c2053cbb1d5118e772b9e3c74e6b3fb1c53fca57"
 }
