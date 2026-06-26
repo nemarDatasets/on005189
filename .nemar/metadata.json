@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Search Superiority Recollection Familiarity",
-  "description": "This dataset investigates the search superiority effect in human memory by examining whether incidental learning during visual search produces qualitatively different memory representations compared to intentional memorization. Thirty participants performed visual search and intentional memorization tasks on real-world scenes, followed by a surprise recognition memory test. The study combines EEG recordings with eye-tracking and behavioral measures (remember-know judgments and receiver operating characteristics) to dissociate the contributions of recollection and familiarity processes to recognition memory.",
-  "methods_description": "EEG and eye-tracking were recorded during an experiment where 30 participants searched for objects in scenes or intentionally memorized scenes, followed by a surprise recognition memory test. Behavioral data were collected during encoding and memory testing phases. Analysis included event-related potentials (FN400 and late parietal component) and receiver operating characteristics analysis.",
+  "description": "This dataset investigates the search superiority effect in human memory, examining whether incidental learning during visual search produces qualitatively different memory representations compared to intentional memorization. Thirty participants performed visual search and intentional memorization tasks on real-world scenes, followed by a surprise recognition memory test. The study combines EEG recordings with eye-tracking and behavioral measures (remember-know judgments and receiver operating characteristics) to dissociate the contributions of recollection and familiarity processes to recognition memory.",
+  "methods_description": "EEG and eye-tracking were recorded during an experiment where 30 participants searched for objects in scenes or intentionally memorized objects, followed by a surprise recognition memory test. Behavioral data were collected during encoding and memory testing phases. Analysis included event-related potentials (FN400 and late parietal component) and receiver operating characteristics analysis.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,6 +14,9 @@
   "keywords": [
     {
       "term": "EEG"
+    },
+    {
+      "term": "eye tracking"
     },
     {
       "term": "visual search"
@@ -29,12 +32,6 @@
     },
     {
       "term": "event-related potentials"
-    },
-    {
-      "term": "eye tracking"
-    },
-    {
-      "term": "incidental learning"
     }
   ],
   "related_identifiers": [
@@ -72,11 +69,6 @@
     ".vhdr",
     ".vmrk",
     ".yml"
-  ],
-  "funding_references": [
-    {
-      "funder_name": "Goethe University Frankfurt"
-    }
   ],
   "source_hash": "5a838f3534e51699610802f5ff01ea84e176acc19aa27c089199ccac8a4b2f28"
 }
