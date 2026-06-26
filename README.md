@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005189-blue)](https://doi.org/10.82901/nemar.on005189)
+
 In this experiment, participants searched for objects in some scenes and intentionally memorized others. We then tested their memory of these objects, finding stronger (quantitative difference) and different (qualitative difference: recollection benefit) memory representations for search targets.
 
 We recorded both EEG and eye movements. Behavioral data is split into encoding (Encode_beh) and memory testing (Test_beh).
