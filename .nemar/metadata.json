@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Search Superiority Recollection Familiarity",
-  "description": "This dataset investigates the search superiority effect in human memory, examining whether incidental learning during visual search produces qualitatively different memory representations compared to intentional memorization. Thirty participants performed visual search and intentional memorization tasks on real-world scenes, followed by a surprise recognition memory test. The study combines EEG recordings with eye-tracking and behavioral measures (remember-know judgments and receiver operating characteristics) to dissociate the contributions of recollection and familiarity processes to recognition memory.",
-  "methods_description": "EEG and eye-tracking were recorded during an experiment where 30 participants searched for objects in scenes or intentionally memorized objects, followed by a surprise recognition memory test. Behavioral data were collected during encoding and memory testing phases. Analysis included event-related potentials (FN400 and late parietal component) and receiver operating characteristics analysis.",
+  "description": "This dataset contains EEG and eye-tracking recordings from 30 participants who searched for objects in naturalistic scenes and intentionally memorized others, followed by a surprise recognition memory test. The study examines the 'search superiority effect,' testing whether incidentally encoded memories differ qualitatively from intentional ones through recollection and familiarity processes indexed by FN400 and late parietal ERP components. Behavioral remember-know judgments and ROC analyses were used alongside EEG measures to disentangle these memory processes.",
+  "methods_description": "EEG and eye movement data were recorded while participants performed a visual search and intentional memorization task on naturalistic scenes, followed by a surprise recognition memory test with remember-know judgments. Behavioral data were split into encoding (Encode_beh) and memory testing (Test_beh) phases.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,19 +19,22 @@
       "term": "eye tracking"
     },
     {
-      "term": "visual search"
-    },
-    {
       "term": "recognition memory"
-    },
-    {
-      "term": "recollection"
     },
     {
       "term": "familiarity"
     },
     {
-      "term": "event-related potentials"
+      "term": "recollection"
+    },
+    {
+      "term": "visual search"
+    },
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     }
   ],
   "related_identifiers": [
@@ -41,14 +44,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005189",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds005189.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005189",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
