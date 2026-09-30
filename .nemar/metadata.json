@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Search Superiority Recollection Familiarity",
-  "description": "This dataset contains EEG and eye-tracking recordings from 30 participants who searched for objects in naturalistic scenes and intentionally memorized others, followed by a surprise recognition memory test. The study examines the 'search superiority effect,' testing whether incidentally encoded memories differ qualitatively from intentional ones through recollection and familiarity processes indexed by FN400 and late parietal ERP components. Behavioral remember-know judgments and ROC analyses were used alongside EEG measures to disentangle these memory processes.",
-  "methods_description": "EEG and eye movement data were recorded while participants performed a visual search and intentional memorization task on naturalistic scenes, followed by a surprise recognition memory test with remember-know judgments. Behavioral data were split into encoding (Encode_beh) and memory testing (Test_beh) phases.",
+  "description": "EEG and eye-tracking dataset from 30 participants who searched for objects in real-world scenes or intentionally memorized objects in other scenes, then completed a surprise recognition memory test. The study asks whether the search superiority effect reflects purely stronger memory or also qualitative differences in recollection versus familiarity. The data include FN400 and LPC ERP components, remember-know judgments, and receiver operating characteristics. Behavioral data are split into encoding and memory testing phases.",
+  "methods_description": "Participants performed a visual search task on some scenes and an intentional memorization task on others while EEG and eye movements were recorded. A surprise recognition memory test with remember-know judgments followed. Behavioral data are provided separately for encoding (Encode_beh) and testing (Test_beh).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,22 +19,21 @@
       "term": "eye tracking"
     },
     {
-      "term": "recognition memory"
+      "term": "visual search"
     },
     {
-      "term": "familiarity"
+      "term": "recognition memory"
     },
     {
       "term": "recollection"
     },
     {
-      "term": "visual search"
+      "term": "familiarity"
     },
     {
-      "term": "Event-Related Potentials, P300",
+      "term": "Memory",
       "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008568"
     }
   ],
   "related_identifiers": [
@@ -61,7 +60,7 @@
     "eeg"
   ],
   "sizes": [
-    "18.3 GB (121 files)"
+    "17.03 GB (121 files)"
   ],
   "formats": [
     ".EDF",
